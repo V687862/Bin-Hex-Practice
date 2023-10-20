@@ -5,6 +5,7 @@ Consult documentation on how to utilize the following methods:
   toString()
 */
 
+
 /* Base 10 to base 2 */
 const decimalToBinary = (blob) => `0b${blob.toString(2)}`
 
