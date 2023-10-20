@@ -6,23 +6,22 @@ Consult documentation on how to utilize the following methods:
 */
 
 /* Base 10 to base 2 */
-function decimalToBinary(blob) {
-  // Your code here 
-}
+const decimalToBinary = (blob) => `0b${blob.toString(2)}`
+
 
 /* Base 10 to base 16 */
-function decimalToHexadecimal(blob) {
-  // Your code here 
-}
+const decimalToHexadecimal = (blob) => `0x${blob.toString(16)}`
+
+
 
 /* Base 2 to base 10 */
 function binaryToDecimal(blob) {
-  // Your code here 
+  // Your code here
 }
 
 /* Base 16 to base 10 */
 function hexadecimalToDecimal(blob) {
-  // Your code here 
+  // Your code here
 }
 
 // console.log('Decimal to binary:')
